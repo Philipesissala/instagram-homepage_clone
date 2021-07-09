@@ -80,3 +80,24 @@ article .profile .box p {
 article .profile .box .changeAccount {
     color: #0095f6;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 60px 0;
+}
+
+footer a,
+span {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8e8e8e;
+    margin-right: 15px;
+}
+
+footer .copyrignt {
+    margin-top: 10px;
+}
+
