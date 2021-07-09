@@ -17,3 +17,66 @@ article {
     width: 935px;
     height: 637px;
 }
+
+article .image {
+    width: 400px;
+    height: 637px;
+}
+
+article .image img {
+    width: 650px;
+}
+
+article .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 637px;
+}
+
+article .profile .box {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #dbdbdb;
+    width: 350px;
+    height: 350px;
+}
+
+article .profile img {
+    width: 180px;
+}
+
+article .profile .box .profile-photo img {
+    border-radius: 100%;
+    margin: 20px 0;
+    width: 115px;
+    height: 115px;
+}
+
+article .profile a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+article .profile .box .btn {
+    background-color: #0095f6;
+    border-radius: 4px;
+    color: white;
+    padding: 7px 25px;
+    margin: 25px 0;
+}
+
+article .profile .box p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+article .profile .box .changeAccount {
+    color: #0095f6;
+}
