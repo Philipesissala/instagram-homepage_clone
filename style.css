@@ -101,3 +101,15 @@ footer .copyrignt {
     margin-top: 10px;
 }
 
+@media only screen and (max-width: 840px) {
+    .image {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    article{
+      position: relative;
+      right: 170px;
+    }
+}
+
